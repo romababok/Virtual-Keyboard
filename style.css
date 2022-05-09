@@ -1,0 +1,175 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1000px;
+}
+.container .title {
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+}
+.container .textarea {
+  margin: 0 auto;
+  padding: 5px;
+  width: 685px;
+  height: 150px;
+  border: solid 2px aqua;
+  border-radius: 5px;
+  resize: none;
+  display: block;
+  margin-bottom: 20px;
+}
+.container .keyboard {
+  margin: 0 auto;
+  width: 685px;
+  height: 235px;
+  border-radius: 5px;
+  border: solid 2px aqua;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  gap: 5px;
+  background-color: #888888;
+}
+.container .keyboard .key {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+  transition: 0.3s;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-color: #444444;
+  color: white;
+}
+.container .keyboard .key:hover {
+  background: #79aa89;
+}
+.container .keyboard .key.active {
+  border-radius: 20px;
+  background-color: #2cfd72;
+}
+.container .keyboard .Backspace,
+.container .keyboard .CapsLock,
+.container .keyboard .Enter,
+.container .keyboard .ShiftLeft,
+.container .keyboard .ShiftRight {
+  font-weight: 700;
+  background-color: #222222;
+  width: 85px;
+}
+.container .keyboard .Space {
+  background-color: #222222;
+  width: 310px;
+}
+.container .keyboard .AltLeft,
+.container .keyboard .AltRight,
+.container .keyboard .ArrowLeft,
+.container .keyboard .ArrowDown,
+.container .keyboard .ArrowRight,
+.container .keyboard .ControlRight,
+.container .keyboard .MetaLeft,
+.container .keyboard .ControlLeft,
+.container .keyboard .ArrowUp,
+.container .keyboard .Delete,
+.container .keyboard .Tab {
+  font-weight: 700;
+  background-color: #222222;
+}
+.container .description {
+  font-weight: 700;
+  text-align: center;
+  margin: 20px 0;
+}/*# sourceMappingURL=style.css.map */
